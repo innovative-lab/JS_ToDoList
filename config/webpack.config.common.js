@@ -54,7 +54,7 @@ module.exports = {
       'window.jQuery': 'jquery',
     }),
       new HtmlWebpackPlugin({
-        template: path.resolve(__dirname + '/../src/index.html'),
+        template: path.resolve(__dirname + '/../home.html'),
         inject: 'body'
       })
   ]
