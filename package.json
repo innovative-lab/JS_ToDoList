@@ -6,7 +6,7 @@
   "scripts": {
     "build": "webpack --config config/webpack.config.prod.js",
     "server": "webpack-dev-server --config config/webpack.config.dev.js",
-    "start": "npm run server"
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
