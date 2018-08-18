@@ -1,0 +1,4 @@
+{
+    "plugins": ["syntax-dynamic-import","transform-runtime","transform-object-rest-spread","transform-async-to-generator"],
+    "presets": ["env","es2015"]
+  }
