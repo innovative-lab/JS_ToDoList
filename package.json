@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "node config/pre-build.setup.js",
-    "build:local": "webpack --define \\service-url-to-be-changed-on-build --config config/webpack.config.prod.js",
+    "build": "webpack --config config/webpack.config.prod.js",
     "server": "webpack-dev-server --config config/webpack.config.dev.js",
     "start": "npm run server"
   },
@@ -36,9 +35,9 @@
     "postcss-loader": "^3.0.0",
     "string-replace-loader": "^2.1.1",
     "style-loader": "^0.22.1",
-    "webpack": "^4.16.5",
-    "webpack-cli": "^3.1.0",
-    "webpack-dev-server": "^3.1.5",
-    "webpack-md5-hash": "0.0.6"
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.2.0",
+    "webpack-md5-hash": "0.0.6",
+    "express": "^4.16.2"
   }
 }
